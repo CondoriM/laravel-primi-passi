@@ -32,6 +32,6 @@
         </div>
     </nav>
     
-    <h1>ciao</h1>
+    <h1>about</h1>
 </body>
 </html>

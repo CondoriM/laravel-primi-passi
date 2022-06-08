@@ -17,5 +17,12 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/about',function(){
+    return view('about');
+});
 
-Route::view('/ciao','ciao',['name'=>'marco']);
+Route::get('/ciao',function(){
+    return view('ciao');
+});
+
+//Route::view('/ciao','ciao',['name'=>'marco']);
